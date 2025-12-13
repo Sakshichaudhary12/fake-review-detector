@@ -1,7 +1,1 @@
-streamlit
-scikit-learn
-pandas
-numpy
-nltk
-xgboost
-nltk==3.8.1
+
