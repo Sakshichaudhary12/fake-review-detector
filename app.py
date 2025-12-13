@@ -1,7 +1,11 @@
+import nltk
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('stopwords')
+
 import streamlit as st
 import pickle
 from utils import transform_text
-import nltk
 
 # Ensure stopwords/tokenizer available
 nltk.download('punkt')
