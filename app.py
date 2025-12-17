@@ -30,6 +30,6 @@ if st.button("Predict"):
         prediction = model.predict(vector)[0]
 
         if prediction == 0:
-            st.error("Fake Review")
+            st.error("Genuine Review")
         else:
-            st.success("Genuine Review")
+            st.success("Fake Review")
