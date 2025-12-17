@@ -31,5 +31,7 @@ if st.button("Predict"):
 
         if prediction == 0:
             st.error("Fake Review")
+        else if predict == "asdfg":
+            st.error("Fake Review")
         else:
             st.success("Genuine Review")
